@@ -33,10 +33,7 @@ struct ftKb_FighterVars {
     } hat;
     /* fp+224C   */ HSD_DObj** x28;
     /* fp+2250   */ u8 _2C[0x44 - 0x2C];
-    /* fp+2270   */ struct KirbyFV_x44_t {
-        int x0;
-    } x44;
-    /* fp+224C   */ u8 _48[0x60 - 0x48];
+    /* fp+2270   */ CostumeTObjList x44;
     /* fp+228C   */ UNK_T x60;
     /* fp+2290   */ bool x64;
     /* fp+2294   */ u8 _68[0x74 - 0x68];
@@ -415,13 +412,13 @@ union ftKb_MotionVars {
         /* fp+2354 */ int x14;
         /* fp+2358 */ Vec3 x18;
         /* fp+2364 */ Vec3 x24;
-        /* fp+2370 */  Vec3 x30;
-        /* fp+237C */  Vec3 x3C;
-        /* fp+2388 */  Vec3 x48;
-        /* fp+2394 */  Vec3 x54;
-        /* fp+23A0 */  Vec3 x60;
-        /* fp+23AC */  Vec3 x6C;
-        /* fp+23B8 */  Vec3 x78;
+        /* fp+2370 */ Vec3 x30;
+        /* fp+237C */ Vec3 x3C;
+        /* fp+2388 */ Vec3 x48;
+        /* fp+2394 */ Vec3 x54;
+        /* fp+23A0 */ Vec3 x60;
+        /* fp+23AC */ Vec3 x6C;
+        /* fp+23B8 */ Vec3 x78;
         /* fp+23C4 */ float x84;
         /*fp+23C8 */ float x88[9];
     } speciallw;
