@@ -14,6 +14,7 @@
 
 typedef enum_t FtMotionId;
 typedef struct DObjList DObjList;
+typedef struct CostumeTObjList CostumeTObjList;
 typedef struct Fighter Fighter;
 typedef struct Fighter_804D653C_t Fighter_804D653C_t;
 typedef struct Fighter_x1670_t Fighter_x1670_t;
@@ -141,13 +142,13 @@ typedef enum CharacterKind {
     CKIND_PLAYABLE_COUNT,
 
     /* 1A */ CKIND_MASTERH = CKIND_PLAYABLE_COUNT, // Master Hand (MasterH)
-    /* 1B */ CKIND_BOY,       // Male Wireframe (Boy)
-    /* 1C */ CKIND_GIRL,      // Female Wireframe (Girl)
-    /* 1D */ CKIND_GKOOPS,    // Giga Bowser (GKoops)
-    /* 1E */ CKIND_CREZYH,    // Crazy Hand (CrezyH)
-    /* 1F */ CHKIND_SANDBAG,  // Sandbag
-    /* 20 */ CHKIND_POPO,     // Popo
-    /* 21 */ CHKIND_NONE,     // None
+    /* 1B */ CKIND_BOY,                            // Male Wireframe (Boy)
+    /* 1C */ CKIND_GIRL,                           // Female Wireframe (Girl)
+    /* 1D */ CKIND_GKOOPS,                         // Giga Bowser (GKoops)
+    /* 1E */ CKIND_CREZYH,                         // Crazy Hand (CrezyH)
+    /* 1F */ CHKIND_SANDBAG,                       // Sandbag
+    /* 20 */ CHKIND_POPO,                          // Popo
+    /* 21 */ CHKIND_NONE,                          // None
     /* 22 */ CHKIND_MAX = CHKIND_NONE
 } CharacterKind;
 
